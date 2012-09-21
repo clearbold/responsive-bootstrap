@@ -196,10 +196,6 @@ html, body { height:100%; }
     padding-right: 0;
 }
 
-@media only screen and (max-width: 980px) {
-
-}
-
 @media only screen and (max-width: 767px) {
     body {
         -webkit-text-size-adjust: none;
@@ -277,10 +273,6 @@ html, body { height:100%; }
     .footernav ul li.first a {
         padding-left: 0;
     }
-}
-
-@media only screen and (min-width: 768px) {
-
 }
 
 @media only screen and (max-width: 1023px) {
