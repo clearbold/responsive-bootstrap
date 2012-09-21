@@ -165,14 +165,6 @@ input[type="search"] {
     padding-right: 1em;
 }
 
-/* Fixed footer support. Negative margin on wrapper matches footer height.
-Height of .push can match, or can pad bottom of preceding content. */
-html, body { height:100%; }
-.wrapper { margin: 0 auto -100px; min-height: 100%; height: auto !important; height: 100%; }
-.push { z-index: 0; clear: both; height: 140px; }
-.pagefooter { height: 100px; width: 100%; }
-/* / Fixed footer support */
-
 .pagefooter p {
     font-size: 1.2em;
     line-height: 3em;
@@ -275,6 +267,16 @@ html, body { height:100%; }
     .footernav ul li.first a {
         padding-left: 0;
     }
+}
+
+@media only screen and (min-width: 768px) {
+    /* Fixed footer support. Negative margin on wrapper matches footer height.
+    Height of .push can match, or can pad bottom of preceding content. */
+    html, body { height:100%; }
+    .wrapper { margin: 0 auto -100px; min-height: 100%; height: auto !important; height: 100%; }
+    .push { z-index: 0; clear: both; height: 140px; }
+    .pagefooter { height: 100px; width: 100%; }
+    /* / Fixed footer support */
 }
 
 @media only screen and (max-width: 1023px) {
