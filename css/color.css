@@ -14,16 +14,23 @@ body {
     color: rgb(170, 170, 170);
 }
 .mainnav ul li a,
-.utilitynav ul li a {
-    color: rgb(170, 170, 170);
-
+.utilitynav ul li a,
+.footernav ul li a {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
+.mainnav ul li a,
+.utilitynav ul li a {
+    color: rgb(170, 170, 170);
+}
+.footernav ul li a {
+    color: rgb(48, 48, 48);
+}
 .mainnav ul li a:hover,
-.utilitynav ul li a:hover {
+.utilitynav ul li a:hover,
+.footernav ul li a:hover {
     color: rgb(255, 255, 255);
 }
 

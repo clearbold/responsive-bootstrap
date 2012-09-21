@@ -7,10 +7,14 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
-    .mainnav ul li:after {
+    .utilitynav ul li:after,
+    .mainnav ul li:after,
+    .footernav ul li:after {
         content: "/";
     }
-        .mainnav ul li.last:after {
+        .utilitynav ul li.last:after,
+        .mainnav ul li.last:after,
+        .footernav ul li.last:after {
             content: "";
         }
 }

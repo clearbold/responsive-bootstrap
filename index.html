@@ -27,15 +27,15 @@
         <div class="row">
             <div class="three columns logo"><a href="#"><img src="img/c-bootstrap-logo.png" /></a></div>
             <div class="nine columns">
-                <nav class="utilitynav">
-                    <ul>
+                <div class="utilitynav">
+                    <ul role="navigation">
                         <li><a href="#">A Link</a></li>
-                        <li><a href="#">Another Link</a></li>
+                        <li class="last"><a href="#">Another Link</a></li>
                     </ul>
                     <form role="search">
                         <input type="search" name="keywords" placeholder="Search" value="" />
                     </form>
-                </nav>
+                </div>
             </div>
         </div>
     </div>
@@ -103,7 +103,18 @@
         <div class="push"><!-- empty div --></div>
     </div>
     <div class="pagefooter" role="contentinfo">
-
+        <div class="row">
+            <div class="six columns">
+                <p>&copy; 2012 Clearbold, LLC</p>
+            </div>
+            <div class="six columns footernav">
+                <ul role="navigation">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li class="last"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
