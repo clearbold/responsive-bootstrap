@@ -263,6 +263,20 @@ html, body { height:100%; }
         padding: 1em 0;
         width: 100%;
     }
+
+    .footernav ul {
+        float: none;
+        width: 100%;
+    }
+    .footernav ul li {
+        float: left;
+        font-size: 1.2em;
+        text-align: left;
+        width: auto;
+    }
+    .footernav ul li.first a {
+        padding-left: 0;
+    }
 }
 
 @media only screen and (min-width: 768px) {
