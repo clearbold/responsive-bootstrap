@@ -88,6 +88,8 @@ img { -ms-interpolation-mode: bicubic; }
 .push-ten { left: 83.33333%; }
 .pull-ten { right: 83.33333%; }
 
+.column.centered, .columns.centered { float: none; margin: 0 auto; }
+
 .diagnostic {
     margin-bottom: 1em;
 }
