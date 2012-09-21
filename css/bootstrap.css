@@ -15,7 +15,7 @@ header,
 hgroup,
 nav,
 section,
-summary,
+summary, /* HTML5 elements eschewed in markup. See http://www.netmagazine.com/features/truth-about-structuring-html5-page */
 h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote
 ul li, ol li, dl li {
     display: block;
@@ -30,6 +30,7 @@ input {
     -webkit-appearance: none;
 }
 
+/* Most row & column styles borrowed from Zurb Foundation */
 .row {
     margin-left: auto;
     margin-right: auto;
@@ -106,6 +107,7 @@ img { -ms-interpolation-mode: bicubic; }
 .diagnostic .pull-two > div, .diagnostic .pull-three > div, .diagnostic .pull-four > div, .diagnostic .pull-five > div, .diagnostic .pull-six > div, .diagnostic .pull-seven > div, .diagnostic .pull-eight > div, .diagnostic .pull-nine > div, .diagnostic .pull-ten > div {
     background: rgb(254, 255, 203);
 }
+/* / Row & Column styles */
 
 .pageheader {
     padding-top: 2em;
