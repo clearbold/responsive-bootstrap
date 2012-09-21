@@ -1,0 +1,32 @@
+body {
+    background: rgb(242, 242, 242);
+}
+
+.pageheader {
+    background: rgb(51, 51, 51);
+}
+
+.mainnav {
+    background: rgb(43, 43, 43);
+}
+.mainnav ul li,
+.utilitynav ul li {
+    color: rgb(170, 170, 170);
+}
+.mainnav ul li a,
+.utilitynav ul li a {
+    color: rgb(170, 170, 170);
+
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.mainnav ul li a:hover,
+.utilitynav ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    background: rgb(170, 170, 170);
+}
