@@ -37,3 +37,6 @@ body {
 .pagefooter {
     background: rgb(170, 170, 170);
 }
+.pagefooter p {
+    color: rgb(48, 48, 48);
+}
