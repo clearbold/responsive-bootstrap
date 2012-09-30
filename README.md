@@ -1,6 +1,12 @@
 Clearbold Responsive Bootstrap
 ====================
 
-A responsive HTML5/CSS3 bootstrap, loosely based on Zurb Foundation
+**9.21.2012** &ndash; I recently worked with Zurb Foundation for the first time, to prototype an intranet site for Mass General. It was a refreshing experience. We jumped right into creating wireframes with HTML & CSS, hooked those up to ExpressionEngine to load in content, and were able to give the client a real sense of what the scope of the site would look like and how it would behave on both desktop browsers and mobile devices. The concept of Responsive Web Design immediately clicked for them. (If you’re unfamiliar with Zurb Foundation, you may be acquainted with Twitter Bootstrap.)
 
-View the demo at [http://clearbold.com/bootstrap](http://clearbold.com/bootstrap)
+We then moved the site into design, with a request to stick to the grid, and applied the design to the pages we had created. In doing so, we found a more than a few styles we needed to undo and override.
+
+When using Zurb Foundation or Twitter Bootstrap, you get more than baseline code to power your grid and normalize styles. You get a robust prototype-building toolkit that includes many designed elements. Zurb Foundation is quite opinionated in this regard, with such specifications as font-sizes and fonts sprinkled throughout the code. Some of these styles are chosen by you when you generate a custom Foundation build, but they may not match your site’s design goals once you move past a prototype or wireframes.
+
+Foundation’s mobile-friendly grid is a great tool, and some of the styles we complemented it with are common to many of the projects we take on. So I did the next logical thing and leveraged Zurb’s mobile grid support to create our own Clearbold Bootstrap.
+
+You can preview Clearbold Bootstrap at http://clearbold.com/bootstrap. You can find the code at https://github.com/Clearbold/responsive-bootstrap. Clearbold Bootstrap is a bit opinionated itself, with elements that we find ourselves using on every project. It also has a goal of cleanly breaking out design elements, such as color & typography, so they can be easily overridden. It’s been tested so far in IE8, and recent versions of Firefox, Chrome & Safari. It will continue to evolve and be refined over time. Ultimately, I’d like to be able to prototype a website using Foundation, then swap Clearbold Bootstrap in for the grid and basic layout styles. Enjoy!
